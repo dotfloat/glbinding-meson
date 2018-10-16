@@ -1,0 +1,7 @@
+option('self-contained',          type : 'boolean', value : false, description : 'Create a self-contained install with all dependencies.')
+option('build-tests',             type : 'boolean', value : false, description : 'Build tests.')
+option('build-docs',              type : 'boolean', value : false, description : 'Build documentation.')
+option('build-tools',             type : 'boolean', value : true,  description : 'Build tools.')
+option('build-examples',          type : 'boolean', value : true,  description : 'Build examples.')
+option('build-with-boost-thread', type : 'boolean', value : false, description : 'Use boost::thread instead of std::thread.')
+option('build-check',             type : 'boolean', value : false, description : 'Enable source code check targets')
